@@ -2,28 +2,34 @@
   width:100%;
 }
 h1{
-  margin-left:12%;
+  text-align:center;
 }
+
+
 .panel-button{
-  width:10%;
+  width:45%;
+  margin:0.3%;
 }
-.col-sx-3{
-  width:6%;
-  height:10%;
-  display:inline-block;
+
+.rowWrapper{
+  width:100%;
+  display:block;
   text-decoration:none;
-  margin-top:10px;
-  margin-left:3%;
+  margin-top:2%;
+  margin:0 auto;
 }
 
-.panel2primary{
-  margin-left:25%;
-}
-.panel3primary{
-  margin-left:40%;
+.panel1, .panel{
+  vertical-align:top;
+  width:45%;
+  display:inline-block;
+  margin:0 auto;
 
-}
-.panel4primary{
-  margin-left:50%;
-
+.box{
+  width:350px;
+  height:350px;
+  border: 2px solid #a30090;
+  background:#237ece;
+  text-align: center;
+  }
 }
